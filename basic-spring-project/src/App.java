@@ -1,8 +1,9 @@
 
 public class App {
 
-	private void psvm() {
-		// TODO Auto-generated method stub
-
+	public static void main(String [] args) {
+		
+		Vehicle obj = new Bike();
+		obj.drive();
 	}
 }
