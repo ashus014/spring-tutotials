@@ -1,9 +1,15 @@
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 public class App {
 
-	public static void main(String [] args) {
+	public static void main(String[] args) {
+
 		
-		Vehicle obj = new Bike();
-		obj.drive();
+		  ApplicationContext context = new ClassPathXmlApplicationContext();
+		  
+		  Vehicle obj = (Vehicle) context.getBean("vehicle");
+		 
 	}
 }
