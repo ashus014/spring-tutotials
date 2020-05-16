@@ -3,6 +3,7 @@ package com.ashu.springAnno;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+//@Component("samsung") --- is default
 
 @Component
 public class Samsung {
