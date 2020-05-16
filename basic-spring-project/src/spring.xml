@@ -11,12 +11,11 @@
 	
 	<context:component-scan base-package="com.ashu"></context:component-scan>
 	
-	<!--  <bean id = "vehicle" class="com.ashu.Car">
-	</bean>-->
+	
 	
 	 <bean id = "tyre" class="com.ashu.Tyre">
-	 	<!-- <property name="brand" value="CEAT"></property> -->
-	 	<constructor-arg value="MRF"></constructor-arg>
+	 	
 	</bean>
 	 
 </beans>
+
