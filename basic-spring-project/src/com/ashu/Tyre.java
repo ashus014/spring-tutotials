@@ -1,6 +1,8 @@
 package com.ashu;
 
+import org.springframework.stereotype.Component;
 
+@Component
 public class Tyre {
 	
 	private String brand;

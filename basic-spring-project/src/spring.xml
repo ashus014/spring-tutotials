@@ -13,9 +13,9 @@
 	
 	
 	
-	 <bean id = "tyre" class="com.ashu.Tyre">
+	<!--  <bean id = "tyre" class="com.ashu.Tyre">
 	 	
-	</bean>
+	</bean> -->
 	 
 </beans>
 
